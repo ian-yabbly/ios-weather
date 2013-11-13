@@ -21,6 +21,9 @@
 		3C845EB0183259DF000CDC25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C845E92183259DF000CDC25 /* UIKit.framework */; };
 		3C845EB8183259DF000CDC25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C845EB6183259DF000CDC25 /* InfoPlist.strings */; };
 		3C845EBA183259DF000CDC25 /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C845EB9183259DF000CDC25 /* WeatherTests.m */; };
+		3C845EC518325A25000CDC25 /* YABRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C845EC418325A25000CDC25 /* YABRestClient.m */; };
+		3C845EC818325D5E000CDC25 /* YABWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C845EC718325D5E000CDC25 /* YABWeather.m */; };
+		3C845ECB18327216000CDC25 /* YABWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C845ECA18327216000CDC25 /* YABWeatherView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		3C845EB5183259DF000CDC25 /* WeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherTests-Info.plist"; sourceTree = "<group>"; };
 		3C845EB7183259DF000CDC25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C845EB9183259DF000CDC25 /* WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
+		3C845EC318325A25000CDC25 /* YABRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABRestClient.h; sourceTree = "<group>"; };
+		3C845EC418325A25000CDC25 /* YABRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABRestClient.m; sourceTree = "<group>"; };
+		3C845EC618325D5E000CDC25 /* YABWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABWeather.h; sourceTree = "<group>"; };
+		3C845EC718325D5E000CDC25 /* YABWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABWeather.m; sourceTree = "<group>"; };
+		3C845EC918327216000CDC25 /* YABWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YABWeatherView.h; sourceTree = "<group>"; };
+		3C845ECA18327216000CDC25 /* YABWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YABWeatherView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,12 @@
 				3C845EA0183259DF000CDC25 /* Main.storyboard */,
 				3C845EA3183259DF000CDC25 /* YABViewController.h */,
 				3C845EA4183259DF000CDC25 /* YABViewController.m */,
+				3C845EC918327216000CDC25 /* YABWeatherView.h */,
+				3C845ECA18327216000CDC25 /* YABWeatherView.m */,
+				3C845EC618325D5E000CDC25 /* YABWeather.h */,
+				3C845EC718325D5E000CDC25 /* YABWeather.m */,
+				3C845EC318325A25000CDC25 /* YABRestClient.h */,
+				3C845EC418325A25000CDC25 /* YABRestClient.m */,
 				3C845EA6183259DF000CDC25 /* Images.xcassets */,
 				3C845E95183259DF000CDC25 /* Supporting Files */,
 			);
@@ -253,6 +268,9 @@
 				3C845E9B183259DF000CDC25 /* main.m in Sources */,
 				3C845E9F183259DF000CDC25 /* YABAppDelegate.m in Sources */,
 				3C845EA5183259DF000CDC25 /* YABViewController.m in Sources */,
+				3C845EC518325A25000CDC25 /* YABRestClient.m in Sources */,
+				3C845ECB18327216000CDC25 /* YABWeatherView.m in Sources */,
+				3C845EC818325D5E000CDC25 /* YABWeather.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

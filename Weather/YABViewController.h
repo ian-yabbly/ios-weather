@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "YABWeatherView.h"
+
 @interface YABViewController : UIViewController
+
+@property (nonatomic, strong) YABWeatherView *weatherView;
+@property (nonatomic, strong) UIActivityIndicatorView *activityIndicatorView;
 
 @end
