@@ -57,4 +57,15 @@
     [_getWeatherTask resume];
 }
 
+- (void)getPhotosSuccess:(void (^)(NSArray *))successHandler
+                   error:(void (^)(NSError *))errorHandler
+{
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&name=value&api_key=%@&gallery_id=%@", FLICKR_API_KEY, FLICKR_GALLERY_ID]];
+    NSURLSessionDataTask *task = [_urlSession dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        // TODO Check error and process data
+    }];
+
+    [task resume];
+}
+
 @end
