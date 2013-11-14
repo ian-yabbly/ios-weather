@@ -56,7 +56,7 @@
                                                                  metrics:nil
                                                                    views:viewDict]];
 
-    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[nameLabel]"
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[nameLabel]"
                                                                  options:0
                                                                  metrics:nil
                                                                    views:viewDict]];

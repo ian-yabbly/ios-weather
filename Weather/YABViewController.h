@@ -12,6 +12,8 @@
 
 @interface YABViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UITabBar *tabBar;
+
 @property (nonatomic, strong) YABWeatherView *weatherView;
 @property (nonatomic, strong) UIActivityIndicatorView *activityIndicatorView;
 

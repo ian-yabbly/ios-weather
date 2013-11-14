@@ -1,2 +1,2 @@
 platform :ios, '7.0'
-pod 'GData'
+pod 'FlickrKit', '1.0.2'

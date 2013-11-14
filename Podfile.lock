@@ -1,41 +1,10 @@
 PODS:
-  - GData (1.12.0):
-    - GData/Core
-    - GData/XMLNode
-    - gtm-oauth2
-    - GTMHTTPFetcher
-  - GData/Core (1.12.0):
-    - gtm-oauth2
-    - GTMHTTPFetcher
-  - GData/XMLNode (1.12.0):
-    - gtm-oauth2
-    - GTMHTTPFetcher
-  - gtm-oauth2 (0.0.2):
-    - gtm-oauth2/Core
-    - GTMHTTPFetcher
-    - SBJson
-  - gtm-oauth2/Core (0.0.2):
-    - gtm-oauth2/Core/Mac
-    - gtm-oauth2/Core/Touch
-    - GTMHTTPFetcher
-    - SBJson
-  - gtm-oauth2/Core/Mac (0.0.2):
-    - GTMHTTPFetcher
-    - SBJson
-  - gtm-oauth2/Core/Touch (0.0.2):
-    - GTMHTTPFetcher
-    - SBJson
-  - GTMHTTPFetcher (0.0.1):
-    - SBJson
-  - SBJson (3.2)
+  - FlickrKit (1.0.2)
 
 DEPENDENCIES:
-  - GData
+  - FlickrKit (= 1.0.2)
 
 SPEC CHECKSUMS:
-  GData: e95aa598080c7de8b1c954d3cc8b98c2b4ac3534
-  gtm-oauth2: 92e23fbb4ab77c4f441ffc95e2bbbf174ea589c1
-  GTMHTTPFetcher: b0af09f18ec87e7a5edeffcc8cb6449fdbf0e83f
-  SBJson: e60b4dc22448c2ae1e754b523a4ab53408e85c8d
+  FlickrKit: b096e8995b2e830c302f4a2c03e87242d5f9f63a
 
 COCOAPODS: 0.27.1
